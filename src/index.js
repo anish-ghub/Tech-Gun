@@ -1,17 +1,11 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.css';//Universal CSS
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <App />,//Render JSX (From App.js -> Index.js -> Index.html)
+    document.getElementById('root')//Place: In Public root index.html
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// Component: Reuseable Building Block
+
